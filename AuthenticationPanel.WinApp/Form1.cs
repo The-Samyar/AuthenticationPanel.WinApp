@@ -31,5 +31,10 @@ namespace AuthenticationPanel.WinApp
             //apply gradient         
             graphics.FillRectangle(b, gradient_rectangle);
         }
+
+        private void linkToSignupTab_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            mainTabControl.SelectedIndex = 1;
+        }
     }
 }
